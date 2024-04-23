@@ -68,10 +68,10 @@ BCDM to ENA
     {
       "subject_id": "associated_specimens",
       "subject_label": "associated_specimens",
-      "predicate_id": "skos:relatedMatch",  # Partial match, might require additional processing
-      "object_id": "associated_taxa",
-      "object_label": "associated_taxa",
-      "mapping_justification": "semapv:ManualMappingCuration - May require further processing",
+      "predicate_id": "",  
+      "object_id": "",
+      "object_label": "",
+      "mapping_justification": "semapv:UnspecifiedMatching",
       "mapping_date": "2024-04-23",  # Today's date
       "author_id": "https://orcid.org/0000-1234-0000-1234",  # Replace with your ORCID
       "confidence": "medium"
