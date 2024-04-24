@@ -21,7 +21,6 @@ public class SssomClient {
         this.objectMapper = objectMapper;
     }
 
-
     public void process(ApplicationArguments args) {
         System.out.println("converting the SSSOM input format (tsv) to JSON");
         try {
@@ -29,8 +28,7 @@ public class SssomClient {
             String target = args.getOptionValues(Parameter.TARGET.getName()).get(0);
             String mappingFile = args.getOptionValues(Parameter.SSSOM_INPUT_FILE.getName()).get(0);
             String outputPath = args.getOptionValues(Parameter.OUTPUT_PATH.getName()).get(0);
-            System.out.println("SSSOM mapping file: " +  mappingFile);
-            System.out.println("Output JSON path: " +  outputPath);
+            System.out.println("SSSOM mapping file: " + mappingFile);
             File file = new File(mappingFile);
             InputStream metaFile = SssomClient.class.getResourceAsStream("/sssom-metadata" + File.separator
                     + source.toLowerCase() + "-"
@@ -38,8 +36,9 @@ public class SssomClient {
                     + "-mapping-meta.yml");
             TSVReader tsvReader = new TSVReader(new FileInputStream(file), metaFile);
             MappingSet mappingSet = tsvReader.read();
-            try (FileWriter fileWriter = new FileWriter(outputPath + File.separator + source + "-" +
-                    target + "-mapping-output.json")) {
+            String fileName = outputPath + File.separator + source + "-" + target + "-mapping-output.json";
+            try (FileWriter fileWriter = new FileWriter(fileName)) {
+                System.out.println("Output JSON path: " + fileName);
                 fileWriter.write(objectMapper.writerWithDefaultPrettyPrinter()
                         .writeValueAsString(mappingSet.getMappings()));
             }

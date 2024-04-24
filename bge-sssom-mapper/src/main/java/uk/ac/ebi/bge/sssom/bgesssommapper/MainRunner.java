@@ -28,6 +28,10 @@ public class MainRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
+        System.out.println("Given Input");
+        args.getOptionNames().forEach(option -> {
+            System.out.println(option + " = " + args.getOptionValues(option).get(0));
+        });
         boolean skipFieldMapping = validateParameters(args);
         if (!skipFieldMapping) {
             System.out.println("converting the fields mapping to SSSOM input format (tsv)");
