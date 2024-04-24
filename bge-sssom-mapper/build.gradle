@@ -1,0 +1,38 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.5'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'uk.ac.ebi.bge.sssom'
+version = '0.0.1'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation('org.springframework.boot:spring-boot-starter') {
+        exclude module: "spring-boot-starter-logging"
+        exclude module: "logback-classic"
+    }
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.2'
+    implementation('com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.2') {
+        exclude group: 'com.fasterxml.jackson.core', module: 'jackson-core'
+    }
+    implementation('org.incenp:sssom-cli:0.7.6') {
+        exclude group: 'com.fasterxml.jackson.core', module: 'jackson-core'
+    }
+    implementation 'org.slf4j:slf4j-api:2.0.13'
+    implementation 'org.projectlombok:lombok:1.18.32'
+    annotationProcessor 'org.projectlombok:lombok:1.18.32'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
