@@ -46,8 +46,8 @@ BCDM to DwC
       "subject_source_version": "1",  # Assuming version is 1
       "object_source": "https://dwc.tdwg.org/terms/",
       "object_source_version": "latest",
-      "confidence": "high",
-      "comments": "default for bcdm coming from frictionless data"
+      "confidence": "0.5",
+      "comment": "default for bcdm coming from frictionless data"
     },
 ```
 BCDM to ENA 
@@ -63,7 +63,7 @@ BCDM to ENA
       "mapping_justification": "semapv:ManualMappingCuration",
       "mapping_date": "2024-04-23",  # Today's date
       "author_id": "https://orcid.org/0000-1234-0000-1234",  # Replace with your ORCID
-      "confidence": "high"
+      "confidence": ".95"
     },
     {
       "subject_id": "associated_specimens",
@@ -74,7 +74,7 @@ BCDM to ENA
       "mapping_justification": "semapv:UnspecifiedMatching",
       "mapping_date": "2024-04-23",  # Today's date
       "author_id": "https://orcid.org/0000-1234-0000-1234",  # Replace with your ORCID
-      "confidence": "medium"
+      "confidence": ".10"
     },
 
 ```
