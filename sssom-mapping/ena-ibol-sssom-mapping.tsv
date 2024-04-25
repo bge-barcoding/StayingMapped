@@ -1,0 +1,112 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_date	author_id	subject_source	subject_source_version	object_source	object_source_version	confidence	comment	examples
+ena:sample_alias	sample_alias	skos:exactMatch	iboleu:SAMPLE ALIAS	SAMPLE ALIAS	semapv:ManualMappingCuration								mandatory for ENA	
+ena:sample_title	sample_title	notApplicable			semapv:ManualMappingCuration								recommended for ENA	
+ena:sample_description	sample_description	notApplicable			semapv:ManualMappingCuration									
+		notApplicable	iboleu:PLATE ID	PLATE ID	semapv:ManualMappingCuration									
+		notApplicable	iboleu:WELL POSITION	WELL POSITION	semapv:ManualMappingCuration									
+ena:specimen_id	specimen_id	skos:closeMatch	iboleu:SAMPLE_ID	SAMPLE_ID	semapv:ManualMappingCuration									
+ena:sample coordinator	sample coordinator	notApplicable			semapv:ManualMappingCuration									
+ena:sample coordinator affiliation	sample coordinator affiliation	notApplicable			semapv:ManualMappingCuration									
+		notApplicable	iboleu:PHYLUM	PHYLUM	semapv:ManualMappingCuration									
+		notApplicable	iboleu:CLASS	CLASS	semapv:ManualMappingCuration									
+		notApplicable	iboleu:ORDER	ORDER	semapv:ManualMappingCuration									
+		notApplicable	iboleu:FAMILY	FAMILY	semapv:ManualMappingCuration									
+		notApplicable	iboleu:SUBFAMILY	SUBFAMILY	semapv:ManualMappingCuration									
+		notApplicable	iboleu:TRIBE	TRIBE	semapv:ManualMappingCuration									
+		notApplicable	iboleu:GENUS	GENUS	semapv:ManualMappingCuration									
+ena:taxon_id	taxon_id	skos:closeMatch	iboleu:NCBI TAXID	NCBI TAXID	semapv:ManualMappingCuration									
+ena:scientifc_name	scientifc_name	skos:closeMatch	iboleu:SPECIES	SPECIES	semapv:ManualMappingCuration									
+		notApplicable	iboleu:SUBSPECIES	SUBSPECIES	semapv:ManualMappingCuration									
+ena:culture_or_strain_id	culture_or_strain_id	notApplicable			semapv:ManualMappingCuration									
+ena:lifestage	lifestage	skos:exactMatch	iboleu:LIFESTAGE	LIFESTAGE	semapv:ManualMappingCuration									
+ena:sex	sex	skos:exactMatch	iboleu:SEX	SEX	semapv:ManualMappingCuration									
+ena:organism part	organism part	skos:closeMatch	iboleu:TISSUE DESCRIPTOR	TISSUE DESCRIPTOR	semapv:ManualMappingCuration									
+		notApplicable	iboleu:REPRODUCTION	REPRODUCTION	semapv:ManualMappingCuration									
+ena:symbiont	symbiont	notApplicable			semapv:ManualMappingCuration									
+ena:relationship	relationship	skos:closeMatch	iboleu:RELATION TISSUE/DNA TO VOUCHER	RELATION TISSUE/DNA TO VOUCHER	semapv:ManualMappingCuration									
+ena:GAL	GAL	notApplicable			semapv:ManualMappingCuration									
+ena:GAL_sample_id	GAL_sample_id	notApplicable			semapv:ManualMappingCuration									
+		notApplicable	iboleu:ADDITIONAL ID	ADDITIONAL ID	semapv:ManualMappingCuration									
+		notApplicable	iboleu:TYPE OF ADDITIONAL ID	TYPE OF ADDITIONAL ID	semapv:ManualMappingCuration									
+		notApplicable	iboleu:FIELD ID	FIELD ID	semapv:ManualMappingCuration									
+ena:collected_by	collected_by	skos:closeMatch	iboleu:COLLECTORS	COLLECTORS	semapv:ManualMappingCuration									
+ena:collecting institution	collecting institution	notApplicable			semapv:ManualMappingCuration									
+ena:collection date	collection date	skos:exactMatch	iboleu:COLLECTION DATE	COLLECTION DATE	semapv:ManualMappingCuration									
+ena:collection date	collection date	skos:closeMatch	iboleu:EVENT TIME	EVENT TIME	semapv:ManualMappingCuration									
+		notApplicable	iboleu:COLLECTION DATE ACCCURACY	COLLECTION DATE ACCCURACY	semapv:ManualMappingCuration									
+		notApplicable	iboleu:COLLECTION END DATE	COLLECTION END DATE	semapv:ManualMappingCuration									
+ena:geographic location (country and/or sea)	geographic location (country and/or sea)	skos:closeMatch	iboleu:COUNTRY/OCEAN	COUNTRY/OCEAN	semapv:ManualMappingCuration									
+ena:geographic location (region and locality)	geographic location (region and locality)	skos:closeMatch	iboleu:STATE/PROVINCE	STATE/PROVINCE	semapv:ManualMappingCuration									
+ena:geographic location (region and locality)	geographic location (region and locality)	skos:closeMatch	iboleu:REGION	REGION	semapv:ManualMappingCuration									
+ena:geographic location (region and locality)	geographic location (region and locality)	skos:closeMatch	iboleu:SECTOR	SECTOR	semapv:ManualMappingCuration									
+ena:geographic location (region and locality)	geographic location (region and locality)	skos:closeMatch	iboleu:EXACT SITE	EXACT SITE	semapv:ManualMappingCuration									
+ena:geographic location (latitude)	geographic location (latitude)	skos:closeMatch	iboleu:LAT	LAT	semapv:ManualMappingCuration									
+ena:geographic location (longitude)	geographic location (longitude)	skos:closeMatch	iboleu:LONG	LONG	semapv:ManualMappingCuration									
+ena:Latitude Start	Latitude Start	notApplicable			semapv:ManualMappingCuration									
+ena:Longitude Start	Longitude Start	notApplicable			semapv:ManualMappingCuration									
+ena:Latitude End	Latitude End	notApplicable			semapv:ManualMappingCuration									
+ena:Longitude End	Longitude End	notApplicable			semapv:ManualMappingCuration									
+		notApplicable	iboleu:GPS SOURCE	GPS SOURCE	semapv:ManualMappingCuration									
+		notApplicable	iboleu:COORDINATE ACCURACY	COORDINATE ACCURACY	semapv:ManualMappingCuration									
+		notApplicable	iboleu:COLLECTION NOTES	COLLECTION NOTES	semapv:ManualMappingCuration									
+		notApplicable	iboleu:SITE CODE	SITE CODE	semapv:ManualMappingCuration									
+		notApplicable	iboleu:COLLECTION EVENT ID	COLLECTION EVENT ID	semapv:ManualMappingCuration									
+ena:habitat	habitat	notApplicable	iboleu:HABITAT	HABITAT	semapv:ManualMappingCuration									
+ena:depth	depth	skos:exactMatch	iboleu:DEPTH	DEPTH	semapv:ManualMappingCuration									
+		notApplicable	iboleu:DEPTH PRECISION	DEPTH PRECISION	semapv:ManualMappingCuration									
+ena:elevation	elevation	skos:exactMatch	iboleu:ELEVATION	ELEVATION	semapv:ManualMappingCuration									
+		notApplicable	iboleu:ELEVATION PRECISION	ELEVATION PRECISION	semapv:ManualMappingCuration									
+ena:original collection date	original collection date	notApplicable			semapv:ManualMappingCuration									
+ena:original geographic location	original geographic location	notApplicable			semapv:ManualMappingCuration									
+ena:original geographic location (latitude)	original geographic location (latitude)	notApplicable			semapv:ManualMappingCuration									
+ena:original geographic location (longitude)	original geographic location (longitude)	notApplicable			semapv:ManualMappingCuration									
+ena:sample collection method	sample collection method	skos:closeMatch	iboleu:SAMPLING PROTOCOL	SAMPLING PROTOCOL	semapv:ManualMappingCuration									
+ena:identified_by	identified_by	skos:closeMatch	iboleu:IDENTIFIER	IDENTIFIER	semapv:ManualMappingCuration									
+ena:identifier_affiliation	identifier affiliation	notApplicable			semapv:ManualMappingCuration									
+		notApplicable	iboleu:IDENTIFIER EMAIL	IDENTIFIER EMAIL	semapv:ManualMappingCuration									
+		notApplicable	iboleu:IDENTIFICATION METHOD	IDENTIFICATION METHOD	semapv:ManualMappingCuration									
+		notApplicable	iboleu:IDENTIFIERBYID	IDENTIFIERBYID	semapv:ManualMappingCuration									
+		notApplicable	iboleu:IDENTIFICATION DATE	IDENTIFICATION DATE	semapv:ManualMappingCuration									
+		notApplicable	iboleu:TAXONOMY NOTES	TAXONOMY NOTES	semapv:ManualMappingCuration									
+		notApplicable	iboleu:EXTRA INFO	EXTRA INFO	semapv:ManualMappingCuration									
+		notApplicable	iboleu:NOTES	NOTES	semapv:ManualMappingCuration									
+		notApplicable	iboleu:PRESERVATION HISTORY	PRESERVATION HISTORY	semapv:ManualMappingCuration									
+		notApplicable	iboleu:PREPARATION TYPE / PREPARATION TYPE (DNA)	PREPARATION TYPE / PREPARATION TYPE (DNA)	semapv:ManualMappingCuration									
+		notApplicable	iboleu:PRESERVATION HISTORY	PRESERVATION HISTORY	semapv:ManualMappingCuration									
+		notApplicable			semapv:ManualMappingCuration									
+		notApplicable	iboleu:PLATE ID/WELL POSITION	PLATE ID/WELL POSITION	semapv:ManualMappingCuration									
+		notApplicable	iboleu:TISSUE BIOBANKED?	TISSUE BIOBANKED?	semapv:ManualMappingCuration									
+ena:bio_material	bio_material	skos:closeMatch	iboleu:BIOBANK TISSUE ID / TISSUE BIOBANK NAME	BIOBANK TISSUE ID / TISSUE BIOBANK NAME	semapv:ManualMappingCuration									
+ena:proxy biomaterial	proxy biomaterial	skos:closeMatch			semapv:ManualMappingCuration									
+		notApplicable	iboleu:BIOBANK TISSUE TYPE	BIOBANK TISSUE TYPE	semapv:ManualMappingCuration									
+ena:bio_material	bio_material	skos:closeMatch	iboleu:BIOBANK DNA ID / NAME OF BIOBANK	BIOBANK DNA ID / NAME OF BIOBANK	semapv:ManualMappingCuration									
+		notApplicable	iboleu:2D BARCODE ID TISSUE/DNA	2D BARCODE ID TISSUE/DNA	semapv:ManualMappingCuration									
+ena:specimen_voucher	specimen_voucher	skos:closeMatch	iboleu:MUSEUM ID	MUSEUM ID	semapv:ManualMappingCuration									
+ena:specimen_voucher	specimen_voucher	skos:closeMatch	iboleu:COLLECTION CODE	COLLECTION CODE	semapv:ManualMappingCuration									
+ena:specimen_voucher	specimen_voucher	notApplicable	iboleu:INSTITUTION ID	INSTITUTION ID	semapv:ManualMappingCuration									
+		notApplicable	iboleu:VOUCHER STATUS	VOUCHER STATUS	semapv:ManualMappingCuration									
+ena:proxy voucher	proxy voucher	skos:exactMatch			semapv:ManualMappingCuration									
+		notApplicable	iboleu:EXTERNAL URLS	EXTERNAL URLS	semapv:ManualMappingCuration									
+		notApplicable	iboleu:INSTITUTION STORING	INSTITUTION STORING	semapv:ManualMappingCuration									
+		notApplicable	iboleu:COLLECTING OBSERVED ALL LEGAL AND ETHICAL REGULATIONS	COLLECTING OBSERVED ALL LEGAL AND ETHICAL REGULATIONS	semapv:ManualMappingCuration									
+ena:project name	project name	notApplicable			semapv:ManualMappingCuration									
+ena:project name	project name	notApplicable			semapv:ManualMappingCuration									
+ena:tolid	tolid	notApplicable			semapv:ManualMappingCuration									
+ena:barcoding center	barcoding center	notApplicable			semapv:ManualMappingCuration									
+ena:sample derived from	sample derived from	notApplicable			semapv:ManualMappingCuration									
+ena:sample same as	sample same as	notApplicable			semapv:ManualMappingCuration									
+ena:sample symbiont of	sample symbiont of	notApplicable			semapv:ManualMappingCuration									
+		notApplicable	iboleu:ASSOCIATED SPECIMENS	ASSOCIATED SPECIMENS	semapv:ManualMappingCuration									
+		notApplicable	iboleu:ASSOCIATED TAXA	ASSOCIATED TAXA	semapv:ManualMappingCuration									
+		notApplicable	iboleu:EXTRACTION METHOD	EXTRACTION METHOD	semapv:ManualMappingCuration									
+		notApplicable	iboleu:EXTRACTION DATE	EXTRACTION DATE	semapv:ManualMappingCuration									
+		notApplicable	iboleu:EXTRACTION STAFF OR LAB	EXTRACTION STAFF OR LAB	semapv:ManualMappingCuration									
+		notApplicable	iboleu:DNA CONCENTRATION	DNA CONCENTRATION	semapv:ManualMappingCuration									
+		notApplicable	iboleu:QUANTIFICATION METHOD	QUANTIFICATION METHOD	semapv:ManualMappingCuration									
+		notApplicable	iboleu:QUANTIFICATION DATE	QUANTIFICATION DATE	semapv:ManualMappingCuration									
+		notApplicable	iboleu:DNA VOLUME	DNA VOLUME	semapv:ManualMappingCuration									
+		notApplicable	iboleu:IDENTIFIER ORCID	IDENTIFIER ORCID	semapv:ManualMappingCuration									
+		notApplicable	iboleu:VOUCHER PRESERVATION	VOUCHER PRESERVATION	semapv:ManualMappingCuration									
+		notApplicable	iboleu:TYPE STATUS	TYPE STATUS	semapv:ManualMappingCuration									
+		notApplicable	iboleu:GGBN UPLOAD MECHANISM	GGBN UPLOAD MECHANISM	semapv:ManualMappingCuration									
+		notApplicable	iboleu:PERMITS	PERMITS	semapv:ManualMappingCuration									

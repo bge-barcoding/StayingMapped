@@ -1,0 +1,81 @@
+subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_date	author_id	subject_source	subject_source_version	object_source	object_source_version	confidence	comments	examples
+bcdm:processid	bcdm:processid	skos:closeMatch	unite:source_url	unite:source_url	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						API url for the source record in PlutoF referring to either material sample, specimen or living culture.	https://api.plutof.ut.ee/v1/taxonoccurrence/specimen/specimens/918692/;https://api.plutof.ut.ee/v1/taxonoccurrence/materialsample/materialsamples/7183/
+bcdm:sampleid	bcdm:sampleid	skos:closeMatch	unite:source_name	unite:source_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Same as bcdm:museumid and might match the bcdm:specimenid.	TUF105488;TUE000081
+bcdm:fieldid	bcdm:fieldid	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Not relevant since we are using source_name anyway. Multiple "field id" values possible in UNITE.	
+bcdm:museumid	bcdm:museumid	skos:closeMatch	unite:source_name	unite:source_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Same as bcdm:sampleid in case source material is held in a collection.	
+bcdm:record_id	bcdm:record_id	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:specimenid	bcdm:specimenid	skos:closeMatch	unite:source_url	unite:source_url	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Same as bcdm:process_id. It is mapped to dwc:occurrenceID which says that it does not need to be specimen but can be any type of occurrence (tbc).	
+bcdm:processid_minted_date	bcdm:processid_minted_date	skos:closeMatch	unite:source_created_at	unite:source_created_at	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:bin_uri	bcdm:bin_uri	skos:relatedMatch	unite:sh_code	unite:sh_code	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Each sequence belongs six different species hypotheses (SH); by default we use SH code at the 1.5% gap (distance) between sister species.	
+bcdm:bin_created_date	bcdm:bin_created_date	skos:closeMatch	unite:sh_date_added	unite:sh_date_added	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:collection_code	bcdm:collection_code	skos:closeMatch	unite:source_deposited_in_acronym	unite:source_deposited_in_acronym	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:inst	bcdm:inst	skos:closeMatch	unite:source_deposited_in_name	unite:source_deposited_in_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:taxid	bcdm:taxid	skos:closeMatch	unite:taxon_id	unite:taxon_id	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:taxon_name	bcdm:taxon_name	skos:closeMatch	unite:taxon_name	unite:taxon_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:taxon_rank	bcdm:taxon_rank	skos:closeMatch	unite:taxon_rank	unite:taxon_rank	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Is it the same as identification_rank below?	
+bcdm:kingdom	bcdm:kingdom	skos:closeMatch	unite:kingdom	unite:kingdom	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:phylum	bcdm:phylum	skos:closeMatch	unite:phylum	unite:phylum	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:class	bcdm:class	skos:closeMatch	unite:class	unite:class	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:order	bcdm:order	skos:closeMatch	unite:order	unite:order	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:family	bcdm:family	skos:closeMatch	unite:family	unite:family	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:subfamily	bcdm:subfamily	skos:closeMatch	unite:subfamily	unite:subfamily	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:tribe	bcdm:tribe	skos:closeMatch	unite:tribe	unite:tribe	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:genus	bcdm:genus	skos:closeMatch	unite:genus	unite:genus	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:species	bcdm:species	skos:closeMatch	unite:specific_epithet	unite:specific_epithet	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Should it be the same as DwC field "specificEpithet"? Otherwise, it's a duplicate of "taxon_name" field	
+bcdm:subspecies	bcdm:subspecies	skos:broadMatch	unite:intraspecific_epithet	unite:intraspecific_epithet	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:species_reference	bcdm:species_reference	skos:closeMatch	unitetaxon_name_author	unitetaxon_name_author	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:identification	bcdm:identification	skos:closeMatch	unite:taxon_name	unite:taxon_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Same as bcdm:taxon_name.	
+bcdm:identification_method	bcdm:identification_method	skos:closeMatch	unite:sequence_identification_remarks	unite:sequence_identification_remarks	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:identification_rank	bcdm:identification_rank	skos:closeMatch	unite:taxon_rank	unite:taxon_rank	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Same as bcdm:taxon_rank.	
+bcdm:identified_by	bcdm:identified_by	skos:closeMatch	unite:sequence_identification_determiners	unite:sequence_identification_determiners	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:identifier_email	bcdm:identifier_email	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:taxonomy_notes	bcdm:taxonomy_notes	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:sex	bcdm:sex	skos:closeMatch	unite:source_sex	unite:source_sex	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						We also have other options such as "worker", "soldier", and "gynandromorph"	
+bcdm:reproduction	bcdm:reproduction	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:life_stage	bcdm:life_stage	skos:closeMatch	unite:source_transformation_stage	unite:source_transformation_stage	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						List of elements: adult, larva/nymph, pupa, egg.	
+bcdm:short_note	bcdm:short_note	skos:closeMatch	unite:source_remarks	unite:source_remarks	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:notes	bcdm:notes	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:voucher_type	bcdm:voucher_type	skos:relatedMatch	unite:type_status	unite:type_status	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:tissue_type	bcdm:tissue_type	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:specimen_linkout	bcdm:specimen_linkout	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Public source record pages should be created on UNITE homepage.	
+bcdm:associated_specimens	bcdm:associated_specimens	skos:closeMatch	unite:interacting_objects	unite:interacting_objects	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						object type: specimen	
+bcdm:associated_taxa	bcdm:associated_taxa	skos:closeMatch	unite:interacting_objects	unite:interacting_objects	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						object type: taxonnode	
+bcdm:collectors	bcdm:collectors	skos:closeMatch	unite:samplingevent_collected_by	unite:samplingevent_collected_by	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:collection_date_start	bcdm:collection_date_start	skos:closeMatch	unite:samplingevent_timespan_begin	unite:samplingevent_timespan_begin	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:collection_date_end	bcdm:collection_date_end	skos:closeMatch	unite:samplingevent_timespan_end	unite:samplingevent_timespan_end	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:collection_date_accuracy	bcdm:collection_date_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:collection_event_id	bcdm:collection_event_id	skos:closeMatch	unite:samplingevent_id	unite:samplingevent_id	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:collection_time	bcdm:collection_time	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Is part of unite:samplingevent_timespan_begin and unite:samplingevent_timespan_end	
+bcdm:collection_notes	bcdm:collection_notes	skos:closeMatch	unite:samplingevent_description	unite:samplingevent_description	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:geoid	bcdm:geoid	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:country/ocean	bcdm:country/ocean	skos:closeMatch	unite:samplingarea_country	unite:samplingarea_country	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:country_iso	bcdm:country_iso	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						We only keep track of Alpha-3 ISO codes	
+bcdm:province/state	bcdm:province/state	skos:closeMatch	unite:samplingarea_state	unite:samplingarea_state	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:region	bcdm:region	skos:closeMatch	unite:samplingarea_district	unite:samplingarea_district	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:sector	bcdm:sector	skos:closeMatch	unite:samplingarea_commune_or_city	unite:samplingarea_commune_or_city	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:site	bcdm:site	skos:closeMatch	unite:samplingarea_locality_text	unite:samplingarea_locality_text	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:site_code	bcdm:site_code	skos:closeMatch	unite:samplingarea_parent_samplingarea_name	unite:samplingarea_parent_samplingarea_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:coord	bcdm:coord	skos:broadMatch	unite:samplingarea_latitude	unite:samplingarea_latitude	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:coord	bcdm:coord	skos:broadMatch	unite:samplingarea_longitude	unite:samplingarea_longitude	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:coord_accuracy	bcdm:coord_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						We use coordinateUncertaintyInMeters instead. Why not to rename this field to coord_precision just to be in accordance with the DwC label?	
+bcdm:coord_source	bcdm:coord_source	skos:closeMatch	unite:samplingarea_method	unite:samplingarea_method	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:elev	bcdm:elev	skos:broadMatch	unite:samplingarea_elevation_min	unite:samplingarea_elevation_min	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:elev	bcdm:elev	skos:broadMatch	unite:samplingarea_elevation_max	unite:samplingarea_elevation_max	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:elev_accuracy	bcdm:elev_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:depth	bcdm:depth	skos:broadMatch	unite:samplingarea_depth_min	unite:samplingarea_depth_min	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:depth	bcdm:depth	skos:broadMatch	unite:samplingarea_depth_max	unite:samplingarea_depth_max	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:depth_accuracy	bcdm:depth_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:habitat	bcdm:habitat	skos:closeMatch	unite:samplingevent_habitat	unite:samplingevent_habitat	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Maybe to follow standard here and use separate fields for broad scale (biome) and local scale environmental context (as in GBIF and ENA)?	
+bcdm:sampling_protocol	bcdm:sampling_protocol	skos:closeMatch	unite:samplingevent_sampling_protocol	unite:samplingevent_sampling_protocol	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:nuc	bcdm:nuc	skos:closeMatch	unite:sequence	unite:sequence	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:nuc_basecount	bcdm:nuc_basecount	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Could be probably calculated on the fly if needed.	
+bcdm:insdc_acs	bcdm:insdc_acs	skos:closeMatch	unite:sequence_insd_accno	unite:sequence_insd_accno	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						In our case, it could also be UNITE accession number (or both - UNITE and INSD code).	
+bcdm:funding_src	bcdm:funding_src	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:marker_code	bcdm:marker_code	skos:relatedMatch	unite:sequence_sequenced_regions	unite:sequence_sequenced_regions	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Check GBIF DNA derived data extension - https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml#target_gene and https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml#target_subfragment. See also https://docs.gbif.org/publishing-dna-derived-data/en/.	
+bcdm:primers_forward	bcdm:primers_forward	skos:broadMatch	unite:forw_primer_name	unite:forw_primer_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:primers_forward	bcdm:primers_forward	skos:broadMatch	unite:forw_primer_sequence	unite:forw_primer_sequence	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Check GBIF DNA derived data extension https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml#pcr_primers	
+bcdm:primers_reverse	bcdm:primers_reverse	skos:broadMatch	unite:sequence.rev_primer_name	unite:sequence.rev_primer_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:primers_reverse	bcdm:primers_reverse	skos:broadMatch	unite:sequence.rev_primer_sequence	unite:sequence.rev_primer_sequence	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Check GBIF DNA derived data extension https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2021-07-05.xml#pcr_primers	
+bcdm:sequence_run_site	bcdm:sequence_run_site	skos:relatedMatch	unite:insd_status	unite:insd_status	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Maybe split this field into two separate fields - "institution sequences" (run site) and "source database"?	
+bcdm:sequence_upload_date	bcdm:sequence_upload_date	skos:closeMatch	unite:sequence_created_at	unite:sequence_created_at	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
+bcdm:recordset_code_arr	bcdm:recordset_code_arr	skos:closeMatch	unite:sequence_project_name	unite:sequence_project_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							

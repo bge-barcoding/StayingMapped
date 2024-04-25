@@ -1,0 +1,79 @@
+#	subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_date	author_id	subject_source	subject_source_version	object_source	object_source_version	confidence	comment	examples
+1	bcdm:processid	bcdm:processid	notApplicable			semapv:ManualMappingCuration	2024-04-24							Not in the checklist but can be submitted as BOLD ID	
+2	bcdm:sampleid	bcdm:sampleid	skos:closeMatch	ena:specimen_id	ena:specimen_id	semapv:ManualMappingCuration	2024-04-24								
+3	bcdm:fieldid	bcdm:fieldid	skos:closeMatch	ena:specimen_id	ena:specimen_id	semapv:ManualMappingCuration	2024-04-24							can also be mapped to specimen_id, but ena only allows a single specimen_id	
+4	bcdm:museumid	bcdm:museumid	skos:narrowMatch	ena:specimen_voucher	ena:specimen_voucher	semapv:ManualMappingCuration	2024-04-24							museumID is a part of the specimen_voucher field	
+5	bcdm:record_id	bcdm:record_id	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+6	bcdm:specimenid	bcdm:specimenid	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA - could also map to specimen_id	
+7	bcdm:processid_minted_date	bcdm:processid_minted_date	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+8	bcdm:bin_uri	bcdm:bin_uri	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+9	bcdm:bin_created_date	bcdm:bin_created_date	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+10	bcdm:collection_code	bcdm:collection_code	skos:narrowMatch	ena:specimen_voucher	ena:specimen_voucher	semapv:ManualMappingCuration	2024-04-24							collection_code is a part of the specimen_voucher field	
+11	bcdm:inst	bcdm:inst	skos:narrowMatch	ena:specimen_voucher	ena:specimen_voucher	semapv:ManualMappingCuration	2024-04-24							institution code is a part of the specimen_voucher field	
+12	bcdm:taxid	bcdm:taxid	skos:closeMatch	ena:taxon_id	ena:taxon_id	semapv:ManualMappingCuration	2024-04-24							ena:taxon_id corresponds to ncbi taxid - not sure if skos:closeMatch as this is a different identifier with the same name - would this be a skos:relatedMatch?	
+13	bcdm:taxon_name	bcdm:taxon_name	skos:broadMatch	ena:scientific_name	ena:scientific_name	semapv:ManualMappingCuration	2024-04-24								
+14	bcdm:taxon_rank	bcdm:taxon_rank	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+15	bcdm:kingdom	bcdm:kingdom	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name	
+16	bcdm:phylum	bcdm:phylum	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name	
+17	bcdm:class	bcdm:class	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name	
+18	bcdm:order	bcdm:order	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name	
+19	bcdm:family	bcdm:family	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name	
+20	bcdm:subfamily	bcdm:subfamily	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name if exists	
+21	bcdm:tribe	bcdm:tribe	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name if exists	
+22	bcdm:genus	bcdm:genus	skos:narrowMatch	ena:scientific_name	ena:scientific_name	semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name; ena:scientific_name includes the bcdm:genus	
+23	bcdm:species	bcdm:species	skos:narrowMatch	ena:scientific_name	ena:scientific_name	semapv:ManualMappingCuration	2024-04-24							bcdm:species refers to the specific epithet?	
+24	bcdm:subspecies	bcdm:subspecies	notApplicable			semapv:ManualMappingCuration	2024-04-24							not submitted by the user - derived from the taxID/scientific name if exists	
+25	bcdm:species_reference	bcdm:species_reference	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA - associated with the TaxID	
+26	bcdm:identification	bcdm:identification	skos:closeMatch	ena:scientific_name	ena:scientific_name	semapv:ManualMappingCuration	2024-04-24							Same as bcdm:taxon_name.	
+27	bcdm:identification_method	bcdm:identification_method	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+28	bcdm:identification_rank	bcdm:identification_rank	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+29	bcdm:identified_by	bcdm:identified_by	skos:closeMatch	ena:identified_by	ena:identified_by	semapv:ManualMappingCuration	2024-04-24								
+30	bcdm:identifier_email	bcdm:identifier_email	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+31	bcdm:taxonomy_notes	bcdm:taxonomy_notes	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+32	bcdm:sex	bcdm:sex	skos:closeMatch	ena:sex	ena:sex	semapv:ManualMappingCuration	2024-04-24								
+33	bcdm:reproduction	bcdm:reproduction	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+34	bcdm:life_stage	bcdm:life_stage	skos:closeMatch	ena:lifestage	ena:lifestage	semapv:ManualMappingCuration	2024-04-24								
+35	bcdm:short_note	bcdm:short_note	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+36	bcdm:notes	bcdm:notes	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+37	bcdm:voucher_type	bcdm:voucher_type	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+38	bcdm:tissue_type	bcdm:tissue_type	skos:relatedMatch	ena:organism part	ena:organism part	semapv:ManualMappingCuration	2024-04-24								
+39	bcdm:specimen_linkout	bcdm:specimen_linkout	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA - not in the checklist but can be submitted as specimen url	
+40	bcdm:associated_specimens	bcdm:associated_specimens	skos:broadMatch	ena:sample symbiont of	ena:sample symbiont of	semapv:ManualMappingCuration	2024-04-24							could be skos:relatedMatch with 'sample symbiont of' or eventually a skos:broadMatch	
+41	bcdm:associated_taxa	bcdm:associated_taxa	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+42	bcdm:collectors	bcdm:collectors	skos:closeMatch	ena:collected_by	ena:collected_by	semapv:ManualMappingCuration	2024-04-24								
+43	bcdm:collection_date_start	bcdm:collection_date_start	skos:narrowMatch	ena:collection date	ena:collection date	semapv:ManualMappingCuration	2024-04-24							event date/time start in marine checklist - ISO 8601 includes time in UTC	
+44	bcdm:collection_date_end	bcdm:collection_date_end	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+45	bcdm:collection_event_id	bcdm:collection_event_id	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+46	bcdm:collection_time	bcdm:collection_time	skos:narrowMatch	ena:collection date	ena:collection date	semapv:ManualMappingCuration	2024-04-24							ISO 8601- includes time in UTC	
+47	bcdm:collection_notes	bcdm:collection_notes	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+48	bcdm:geoid	bcdm:geoid	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+49	bcdm:country/ocean	bcdm:country/ocean	skos:closeMatch	ena:geographic location (country and/or sea)	ena:geographic location (country and/or sea)	semapv:ManualMappingCuration	2024-04-24								
+50	bcdm:country_iso	bcdm:country_iso	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+51	bcdm:province/state	bcdm:province/state	skos:narrowMatch	ena:geographic location (region and locality)	ena:geographic location (region and locality)	semapv:ManualMappingCuration	2024-04-24							ena field is broader	
+52	bcdm:region	bcdm:region	skos:narrowMatch	ena:geographic location (region and locality)	ena:geographic location (region and locality)	semapv:ManualMappingCuration	2024-04-24							ena field is broader	
+53	bcdm:sector	bcdm:sector	skos:narrowMatch	ena:geographic location (region and locality)	ena:geographic location (region and locality)	semapv:ManualMappingCuration	2024-04-24								
+54	bcdm:site	bcdm:site	skos:narrowMatch	ena:geographic location (region and locality)	ena:geographic location (region and locality)	semapv:ManualMappingCuration	2024-04-24								
+55	bcdm:site_code	bcdm:site_code	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+56	bcdm:coord	bcdm:coord	skos:broadMatch	ena:geographic location (latitude)	ena:geographic location (latitude)	semapv:ManualMappingCuration	2024-04-24								
+56	bcdm:coord	bcdm:coord	skos:broadMatch	ena:geographic location (longitude)	ena:geographic location (longitude)	semapv:ManualMappingCuration	2024-04-24								
+57	bcdm:coord_accuracy	bcdm:coord_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+58	bcdm:coord_source	bcdm:coord_source	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+59	bcdm:elev	bcdm:elev	skos:closeMatch	ena:elevation	ena:elevation	semapv:ManualMappingCuration	2024-04-24								
+60	bcdm:elev_accuracy	bcdm:elev_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+61	bcdm:depth	bcdm:depth	skos:closeMatch	ena:depth	ena:depth	semapv:ManualMappingCuration	2024-04-24								
+62	bcdm:depth_accuracy	bcdm:depth_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+63	bcdm:habitat	bcdm:habitat	skos:closeMatch	ena:habitat	ena:habitat	semapv:ManualMappingCuration	2024-04-24								
+64	bcdm:sampling_protocol	bcdm:sampling_protocol	skos:closeMatch	ena:sample collection method	ena:sample collection method	semapv:ManualMappingCuration	2024-04-24								
+65	bcdm:nuc	bcdm:nuc	skos:closeMatch	ena:sequence	ena:sequence	semapv:ManualMappingCuration	2024-04-24							not in the sample checklist - in the targeted sequence checklist	
+66	bcdm:nuc_basecount	bcdm:nuc_basecount	notApplicable			semapv:ManualMappingCuration	2024-04-24							not in the sample checklist - in the targeted sequence checklist - depending on the marker we request 5' and 3' cds location	
+67	bcdm:insdc_acs	bcdm:insdc_acs	skos:narrowMatch	ena:accession	ena:accession	semapv:ManualMappingCuration	2024-04-24							not in the checklist - generated on submission	
+68	bcdm:funding_src	bcdm:funding_src	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+69	bcdm:marker_code	bcdm:marker_code	skos:closeMatch	ena:gene	ena:gene	semapv:ManualMappingCuration	2024-04-24							not in the sample checklist - in the targeted sequence checklist	
+70	bcdm:primers_forward	bcdm:primers_forward	skos:broadMatch	ena:forward primer name	ena:forward primer name	semapv:ManualMappingCuration	2024-04-24							not in the sample checklist - in the targeted sequence checklist	
+70	bcdm:primers_forward	bcdm:primers_forward	skos:broadMatch	ena:forward primer sequence	ena:forward primer sequence	semapv:ManualMappingCuration	2024-04-24							not in the sample checklist - in the targeted sequence checklist	
+71	bcdm:primers_reverse	bcdm:primers_reverse	skos:broadMatch	ena:reverse primer name	ena:reverse primer name	semapv:ManualMappingCuration	2024-04-24							not in the sample checklist - in the targeted sequence checklist	
+71	bcdm:primers_reverse	bcdm:primers_reverse	skos:broadMatch	ena:reverse primer sequence	ena:reverse primer sequence	semapv:ManualMappingCuration	2024-04-24							not in the sample checklist - in the targeted sequence checklist	
+72	bcdm:sequence_run_site	bcdm:sequence_run_site	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+73	bcdm:sequence_upload_date	bcdm:sequence_upload_date	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+74	bcdm:bold_recordset_code_arr	bcdm:bold_recordset_code_arr	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+75	bcdm:collection_date_accuracy	bcdm:collection_date_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	

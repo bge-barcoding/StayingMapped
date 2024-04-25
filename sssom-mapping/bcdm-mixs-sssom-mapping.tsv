@@ -1,0 +1,82 @@
+#	subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_date	author_id	subject_source	subject_source_version	object_source	object_source_version	confidence	comment	examples
+1	bcdm:processid	bcdm:processid	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+2	bcdm:sampleid	bcdm:sampleid	skos:closeMatch		MIXS:samp_name	semapv:ManualMappingCuration	2024-04-24								
+3	bcdm:fieldid	bcdm:fieldid	skos:closeMatch		MIXS:samp_name	semapv:ManualMappingCuration	2024-04-24								
+4	bcdm:museumid	bcdm:museumid	skos:narrowMatch		MIXS:source_mat_id	semapv:ManualMappingCuration	2024-04-24								
+5	bcdm:record_id	bcdm:record_id	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+6	bcdm:specimenid	bcdm:specimenid	skos:narrowMatch		MIXS:source_mat_id	semapv:ManualMappingCuration	2024-04-24								
+7	bcdm:processid_minted_date	bcdm:processid_minted_date	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+8	bcdm:bin_uri	bcdm:bin_uri	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+9	bcdm:bin_created_date	bcdm:bin_created_date	notApplicable			semapv:ManualMappingCuration	2024-04-24							NA	
+10	bcdm:collection_code	bcdm:collection_code	skos:narrowMatch		MIXS:source_mat_id	semapv:ManualMappingCuration	2024-04-24							MiXS field is broader	
+11	bcdm:inst	bcdm:inst	skos:narrowMatch		MIXS:source_mat_id	semapv:ManualMappingCuration	2024-04-24							MiXS field is broader	
+12	bcdm:taxid	bcdm:taxid	skos:closeMatch		MIXS:samp_taxon_id	semapv:ManualMappingCuration	2024-04-24								
+13	bcdm:taxon_name	bcdm:taxon_name	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+14	bcdm:taxon_rank	bcdm:taxon_rank	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+15	bcdm:kingdom	bcdm:kingdom	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+16	bcdm:phylum	bcdm:phylum	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+17	bcdm:class	bcdm:class	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+18	bcdm:order	bcdm:order	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+19	bcdm:family	bcdm:family	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+20	bcdm:subfamily	bcdm:subfamily	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+21	bcdm:tribe	bcdm:tribe	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+22	bcdm:genus	bcdm:genus	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+23	bcdm:species	bcdm:species	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+24	bcdm:subspecies	bcdm:subspecies	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+25	bcdm:species_reference	bcdm:species_reference	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+26	bcdm:identification	bcdm:identification	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+27	bcdm:identification_method	bcdm:identification_method	notApplicable			semapv:ManualMappingCuration	2024-04-24							tax_class - narrower - refers to sequence based identification 	
+28	bcdm:identification_rank	bcdm:identification_rank	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+29	bcdm:identified_by	bcdm:identified_by	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+30	bcdm:identifier_email	bcdm:identifier_email	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+31	bcdm:taxonomy_notes	bcdm:taxonomy_notes	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+32	bcdm:sex	bcdm:sex	skos:broadMatch		MIXS:urobiom_sex	semapv:ManualMappingCuration	2024-04-24							none of these are a closematch...	
+32	bcdm:sex	bcdm:sex	skos:broadMatch		MIXS:animal_sex	semapv:ManualMappingCuration	2024-04-24							none of these are a closematch...	
+32	bcdm:sex	bcdm:sex	skos:broadMatch		MIXS:host_sex	semapv:ManualMappingCuration	2024-04-24							none of these are a closematch...	
+32	bcdm:sex	bcdm:sex	skos:broadMatch		MIXS:plant_sex	semapv:ManualMappingCuration	2024-04-24							none of these are a closematch...	
+33	bcdm:reproduction	bcdm:reproduction	skos:relatedMatch		MIXS:propagation	semapv:ManualMappingCuration	2024-04-24								
+34	bcdm:life_stage	bcdm:life_stage	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+35	bcdm:short_note	bcdm:short_note	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+36	bcdm:notes	bcdm:notes	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+37	bcdm:voucher_type	bcdm:voucher_type	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+38	bcdm:tissue_type	bcdm:tissue_type	skos:relatedMatch		MIXS:samp_type	semapv:ManualMappingCuration	2024-04-24								
+39	bcdm:specimen_linkout	bcdm:specimen_linkout	skos:relatedMatch		MIXS:source_mat_id	semapv:ManualMappingCuration	2024-04-24								
+40	bcdm:associated_specimens	bcdm:associated_specimens	skos:relatedMatch		MIXS:biotic_relationship	semapv:ManualMappingCuration	2024-04-24								
+41	bcdm:associated_taxa	bcdm:associated_taxa	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+42	bcdm:collectors	bcdm:collectors				semapv:ManualMappingCuration	2024-04-24								
+43	bcdm:collection_date_start	bcdm:collection_date_start	skos:narrowMatch		MIXS:collection_date	semapv:ManualMappingCuration	2024-04-24								
+44	bcdm:collection_date_end	bcdm:collection_date_end	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+45	bcdm:collection_event_id	bcdm:collection_event_id	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+46	bcdm:collection_time	bcdm:collection_time	skos:narrowMatch		MIXS:collection_date	semapv:ManualMappingCuration	2024-04-24							ISO 8601- includes time in UTC	
+47	bcdm:collection_notes	bcdm:collection_notes	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+48	bcdm:geoid	bcdm:geoid	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+49	bcdm:country/ocean	bcdm:country/ocean	skos:narrowMatch		MIXS:geo_loc_name	semapv:ManualMappingCuration	2024-04-24								
+50	bcdm:country_iso	bcdm:country_iso	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+51	bcdm:province/state	bcdm:province/state	skos:narrowMatch		MIXS:geo_loc_name	semapv:ManualMappingCuration	2024-04-24								
+52	bcdm:region	bcdm:region	skos:narrowMatch		MIXS:geo_loc_name	semapv:ManualMappingCuration	2024-04-24								
+53	bcdm:sector	bcdm:sector	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+54	bcdm:site	bcdm:site	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+55	bcdm:site_code	bcdm:site_code	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+56	bcdm:coord	bcdm:coord	skos:closeMatch		MIXS:lat_long	semapv:ManualMappingCuration	2024-04-24								
+57	bcdm:coord_accuracy	bcdm:coord_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+58	bcdm:coord_source	bcdm:coord_source	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+59	bcdm:elev	bcdm:elev	skos:closeMatch		MIXS:elevation	semapv:ManualMappingCuration	2024-04-24								
+60	bcdm:elev_accuracy	bcdm:elev_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+61	bcdm:depth	bcdm:depth	skos:closeMatch		MIXS:depth	semapv:ManualMappingCuration	2024-04-24								
+62	bcdm:depth_accuracy	bcdm:depth_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+63	bcdm:habitat	bcdm:habitat	skos:broadMatch		MIXS:env_broad_scale	semapv:ManualMappingCuration	2024-04-24								
+63	bcdm:habitat	bcdm:habitat	skos:broadMatch		MIXS:env_local_scale	semapv:ManualMappingCuration	2024-04-24								
+63	bcdm:habitat	bcdm:habitat	skos:broadMatch		MIXS:env_medium	semapv:ManualMappingCuration	2024-04-24								
+64	bcdm:sampling_protocol	bcdm:sampling_protocol	skos:broadMatch		MIXS:samp_collect_device	semapv:ManualMappingCuration	2024-04-24								
+64	bcdm:sampling_protocol	bcdm:sampling_protocol	skos:broadMatch		MIXS:samp_mat_process	semapv:ManualMappingCuration	2024-04-24								
+65	bcdm:nuc	bcdm:nuc	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+66	bcdm:nuc_basecount	bcdm:nuc_basecount	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+67	bcdm:insdc_acs	bcdm:insdc_acs	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+68	bcdm:funding_src	bcdm:funding_src	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+69	bcdm:marker_code	bcdm:marker_code	skos:closeMatch		MIXS:target_gene	semapv:ManualMappingCuration	2024-04-24								
+70	bcdm:primers_forward	bcdm:primers_forward	skos:narrowMatch		MIXS:pcr_primers	semapv:ManualMappingCuration	2024-04-24								
+71	bcdm:primers_reverse	bcdm:primers_reverse	skos:narrowMatch		MIXS:pcr_primers	semapv:ManualMappingCuration	2024-04-24								
+72	bcdm:sequence_run_site	bcdm:sequence_run_site				semapv:ManualMappingCuration	2024-04-24								
+73	bcdm:sequence_upload_date	bcdm:sequence_upload_date	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+74	bcdm:bold_recordset_code_arr	bcdm:bold_recordset_code_arr	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+75	bcdm:collection_date_accuracy	bcdm:collection_date_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24								

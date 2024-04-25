@@ -1,0 +1,78 @@
+#	subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_date	author_id	subject_source	subject_source_version	object_source	object_source_version	confidence	comment	examples
+1	bcdm:processid	bcdm:processid	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+2	bcdm:sampleid	bcdm:sampleid	skos:exactMatch	iboleu:Sample ID	iboleu:Sample ID	semapv:ManualMappingCuration	2024-04-24								
+3	bcdm:fieldid	bcdm:fieldid	skos:exactMatch	iboleu:Field ID	iboleu:Field ID	semapv:ManualMappingCuration	2024-04-24								
+4	bcdm:museumid	bcdm:museumid	skos:exactMatch	iboleu:Museum ID	iboleu:Museum ID	semapv:ManualMappingCuration	2024-04-24								
+5	bcdm:record_id	bcdm:record_id	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+6	bcdm:specimenid	bcdm:specimenid	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+7	bcdm:processid_minted_date	bcdm:processid_minted_date	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+8	bcdm:bin_uri	bcdm:bin_uri	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+9	bcdm:bin_created_date	bcdm:bin_created_date	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+10	bcdm:collection_code	bcdm:collection_code	skos:exactMatch	iboleu:Collection code	iboleu:Collection code	semapv:ManualMappingCuration	2024-04-24								
+11	bcdm:inst	bcdm:inst	skos:exactMatch	iboleu:Institution storing	iboleu:Institution storing	semapv:ManualMappingCuration	2024-04-24								
+12	bcdm:taxid	bcdm:taxid	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+13	bcdm:taxon_name	bcdm:taxon_name	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+14	bcdm:taxon_rank	bcdm:taxon_rank	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+15	bcdm:kingdom	bcdm:kingdom	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+16	bcdm:phylum	bcdm:phylum	skos:exactMatch	iboleu:Phylum	iboleu:Phylum	semapv:ManualMappingCuration	2024-04-24								
+17	bcdm:class	bcdm:class	skos:exactMatch	iboleu:Class	iboleu:Class	semapv:ManualMappingCuration	2024-04-24								
+18	bcdm:order	bcdm:order	skos:exactMatch	iboleu:Order	iboleu:Order	semapv:ManualMappingCuration	2024-04-24								
+19	bcdm:family	bcdm:family	skos:exactMatch	iboleu:Family	iboleu:Family	semapv:ManualMappingCuration	2024-04-24								
+20	bcdm:subfamily	bcdm:subfamily	skos:exactMatch	iboleu:Subfamily	iboleu:Subfamily	semapv:ManualMappingCuration	2024-04-24								
+21	bcdm:tribe	bcdm:tribe	skos:exactMatch	iboleu:Tribe	iboleu:Tribe	semapv:ManualMappingCuration	2024-04-24								
+22	bcdm:genus	bcdm:genus	skos:exactMatch	iboleu:Genus	iboleu:Genus	semapv:ManualMappingCuration	2024-04-24								
+23	bcdm:species	bcdm:species	skos:exactMatch	iboleu:Species	iboleu:Species	semapv:ManualMappingCuration	2024-04-24								
+24	bcdm:subspecies	bcdm:subspecies	skos:exactMatch	iboleu:Subspecies	iboleu:Subspecies	semapv:ManualMappingCuration	2024-04-24								
+25	bcdm:species_reference	bcdm:species_reference	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+26	bcdm:identification	bcdm:identification	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+27	bcdm:identification_method	bcdm:identification_method	skos:exactMatch	iboleu:Identification Method	iboleu:Identification Method	semapv:ManualMappingCuration	2024-04-24								
+28	bcdm:identification_rank	bcdm:identification_rank	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+29	bcdm:identified_by	bcdm:identified_by	skos:exactMatch	iboleu:Identifier	iboleu:Identifier	semapv:ManualMappingCuration	2024-04-24								
+30	bcdm:identifier_email	bcdm:identifier_email	skos:exactMatch	iboleu:Identifier Email	iboleu:Identifier Email	semapv:ManualMappingCuration	2024-04-24								
+31	bcdm:taxonomy_notes	bcdm:taxonomy_notes	skos:exactMatch	iboleu:Taxonomy Notes	iboleu:Taxonomy Notes	semapv:ManualMappingCuration	2024-04-24								
+32	bcdm:sex	bcdm:sex	skos:exactMatch	iboleu:Sex	iboleu:Sex	semapv:ManualMappingCuration	2024-04-24								
+33	bcdm:reproduction	bcdm:reproduction	skos:exactMatch	iboleu:Reproduction	iboleu:Reproduction	semapv:ManualMappingCuration	2024-04-24								
+34	bcdm:life_stage	bcdm:life_stage	skos:exactMatch	iboleu:Life Stage	iboleu:Life Stage	semapv:ManualMappingCuration	2024-04-24								
+35	bcdm:short_note	bcdm:short_note	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+36	bcdm:notes	bcdm:notes	skos:exactMatch	iboleu:Notes	iboleu:Notes	semapv:ManualMappingCuration	2024-04-24								
+37	bcdm:voucher_type	bcdm:voucher_type	skos:exactMatch	iboleu:Voucher Status	iboleu:Voucher Status	semapv:ManualMappingCuration	2024-04-24								
+38	bcdm:tissue_type	bcdm:tissue_type	skos:relatedMatch	iboleu:Tissue Descriptor	iboleu:Tissue Descriptor	semapv:ManualMappingCuration	2024-04-24								
+39	bcdm:specimen_linkout	bcdm:specimen_linkout	skos:closeMatch	iboleu:External URLs	iboleu:External URLs	semapv:ManualMappingCuration	2024-04-24								
+40	bcdm:associated_specimens	bcdm:associated_specimens	skos:exactMatch	iboleu:Associated Specimens	iboleu:Associated Specimens	semapv:ManualMappingCuration	2024-04-24								
+41	bcdm:associated_taxa	bcdm:associated_taxa	skos:exactMatch	iboleu:Associated Taxa	iboleu:Associated Taxa	semapv:ManualMappingCuration	2024-04-24								
+42	bcdm:collectors	bcdm:collectors	skos:exactMatch	iboleu:Collectors	iboleu:Collectors	semapv:ManualMappingCuration	2024-04-24								
+43	bcdm:collection_date_start	bcdm:collection_date_start	skos:narrowMatch	iboleu:Collection Date	iboleu:Collection Date	semapv:ManualMappingCuration	2024-04-24								
+44	bcdm:collection_date_end	bcdm:collection_date_end	skos:exactMatch	iboleu:Collection End Date	iboleu:Collection End Date	semapv:ManualMappingCuration	2024-04-24								
+45	bcdm:collection_event_id	bcdm:collection_event_id	skos:exactMatch	iboleu:Collection Event ID	iboleu:Collection Event ID	semapv:ManualMappingCuration	2024-04-24								
+46	bcdm:collection_time	bcdm:collection_time	skos:closeMatch	iboleu:Event Time	iboleu:Event Time	semapv:ManualMappingCuration	2024-04-24								
+47	bcdm:collection_notes	bcdm:collection_notes	skos:exactMatch	iboleu:Collection Notes	iboleu:Collection Notes	semapv:ManualMappingCuration	2024-04-24								
+48	bcdm:geoid	bcdm:geoid	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+49	bcdm:country/ocean	bcdm:country/ocean	skos:exactMatch	iboleu:Country/Ocean	iboleu:Country/Ocean	semapv:ManualMappingCuration	2024-04-24								
+50	bcdm:country_iso	bcdm:country_iso	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+51	bcdm:province/state	bcdm:province/state	skos:exactMatch	iboleu:State/Province	iboleu:State/Province	semapv:ManualMappingCuration	2024-04-24								
+52	bcdm:region	bcdm:region	skos:exactMatch	iboleu:Region	iboleu:Region	semapv:ManualMappingCuration	2024-04-24								
+53	bcdm:sector	bcdm:sector	skos:exactMatch	iboleu:Sector	iboleu:Sector	semapv:ManualMappingCuration	2024-04-24								
+54	bcdm:site	bcdm:site	skos:exactMatch	iboleu:Exact Site	iboleu:Exact Site	semapv:ManualMappingCuration	2024-04-24								
+55	bcdm:site_code	bcdm:site_code	skos:exactMatch	iboleu:Site Code	iboleu:Site Code	semapv:ManualMappingCuration	2024-04-24								
+56	bcdm:coord	bcdm:coord	skos:broadMatch	iboleu:Lat	iboleu:Lat	semapv:ManualMappingCuration	2024-04-24								
+56	bcdm:coord	bcdm:coord	skos:broadMatch	iboleu:Long	iboleu:Long	semapv:ManualMappingCuration	2024-04-24								
+57	bcdm:coord_accuracy	bcdm:coord_accuracy	skos:exactMatch	iboleu:Coordinate Accuracy	iboleu:Coordinate Accuracy	semapv:ManualMappingCuration	2024-04-24								
+58	bcdm:coord_source	bcdm:coord_source	skos:exactMatch	iboleu:GPS source	iboleu:GPS source	semapv:ManualMappingCuration	2024-04-24								
+59	bcdm:elev	bcdm:elev	skos:exactMatch	iboleu:Elev	iboleu:Elev	semapv:ManualMappingCuration	2024-04-24								
+60	bcdm:elev_accuracy	bcdm:elev_accuracy	skos:closeMatch	iboleu:Elevation Precision	iboleu:Elevation Precision	semapv:ManualMappingCuration	2024-04-24								
+61	bcdm:depth	bcdm:depth	skos:exactMatch	iboleu:Depth	iboleu:Depth	semapv:ManualMappingCuration	2024-04-24								
+62	bcdm:depth_accuracy	bcdm:depth_accuracy	skos:closeMatch	iboleu:Depth Precision	iboleu:Depth Precision	semapv:ManualMappingCuration	2024-04-24								
+63	bcdm:habitat	bcdm:habitat	skos:exactMatch	iboleu:Habitat	iboleu:Habitat	semapv:ManualMappingCuration	2024-04-24								
+64	bcdm:sampling_protocol	bcdm:sampling_protocol	skos:exactMatch	iboleu:Sampling Protocol	iboleu:Sampling Protocol	semapv:ManualMappingCuration	2024-04-24								
+65	bcdm:nuc	bcdm:nuc	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+66	bcdm:nuc_basecount	bcdm:nuc_basecount	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+67	bcdm:insdc_acs	bcdm:insdc_acs	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+68	bcdm:funding_src	bcdm:funding_src	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+69	bcdm:marker_code	bcdm:marker_code	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+70	bcdm:primers_forward	bcdm:primers_forward	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+71	bcdm:primers_reverse	bcdm:primers_reverse	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+72	bcdm:sequence_run_site	bcdm:sequence_run_site	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+73	bcdm:sequence_upload_date	bcdm:sequence_upload_date	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+74	bcdm:bold_recordset_code_arr	bcdm:bold_recordset_code_arr	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+75	bcdm:collection_date_accuracy	bcdm:collection_date_accuracy	notApplicable			semapv:ManualMappingCuration	2024-04-24								
+						semapv:ManualMappingCuration	2024-04-24								
