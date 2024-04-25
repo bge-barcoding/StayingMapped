@@ -3,6 +3,9 @@ Mapping between different standards relevant to BGE
 
 This repository contains scripts and files to facilitate the process of mapping data between different standards relevant BGE. 
 
+**NOTE:** The mapping files are a work in progress. The values and structure reflect initial ideas that emerged during the April 2024 hackathon. Further discussion will take place on this matter. We are also exploring use cases and understanding where in the data flow these mapping files will be useful. 
+
+Currently, we have based our work on creating a common 'Excel'-like structure comprised of a delimited text-based format. From this base file, which can be a format common to all mappings in BGE, we can utilise the Java tool (https://github.com/bge-bioscan/StayingMapped/tree/main/bge-sssom-mapper) to generate the desired output, in this instance, JSON format. 
 
 **Motivation for SSSOM-Based Mapping:**
 
