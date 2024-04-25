@@ -6,10 +6,14 @@ import lombok.Getter;
 @Getter
 @AllArgsConstructor
 public enum Entity {
+
     ENA("ena"),
     BCDM("bcdm"),
     DWC("dwc"),
-    UNITE("unite");
+    UNITE("unite"),
+    IBOL("iboleu"),
+    MIXS("MIXS");
+
     private final String name;
 
 }

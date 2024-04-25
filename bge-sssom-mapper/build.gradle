@@ -17,7 +17,7 @@ repositories {
 
 dependencies {
     implementation('org.springframework.boot:spring-boot-starter') {
-        exclude module: "spring-boot-starter-logging"
+//        exclude module: "spring-boot-starter-logging"
         exclude module: "logback-classic"
     }
     implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.12.2'

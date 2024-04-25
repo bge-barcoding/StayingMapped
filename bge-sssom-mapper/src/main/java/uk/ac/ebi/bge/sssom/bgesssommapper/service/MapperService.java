@@ -5,6 +5,7 @@ import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 import uk.ac.ebi.bge.sssom.bgesssommapper.model.Entity;
 import uk.ac.ebi.bge.sssom.bgesssommapper.model.Parameter;
 import uk.ac.ebi.bge.sssom.bgesssommapper.model.Sssom;
@@ -43,11 +44,15 @@ public class MapperService {
             fileWriter.write("subject_id\tsubject_label\tpredicate_id\tobject_id\tobject_label\tmapping_justification\tmapping_date\tauthor_id\tsubject_source\tsubject_source_version\tobject_source\tobject_source_version\tconfidence\tcomment\n");
             for (Sssom sssom : sssoms) {
                 fileWriter.write(
-                        source.getName() + ":" + sssom.getSourceField() + "\t"
-                                + source.getName() + ":" + sssom.getSourceField() + "\t"
+                        (StringUtils.hasLength(sssom.getSourceField())
+                                ? source.getName() + ":" + sssom.getSourceField() : "") + "\t"
+                                + (StringUtils.hasLength(sssom.getSourceField())
+                                ? source.getName() + ":" + sssom.getSourceField() : "") + "\t"
                                 + "skos:exactMatch" + "\t"
-                                + target.getName() + ":" + sssom.getTargetField() + "\t"
-                                + target.getName() + ":" + sssom.getTargetField() + "\t"
+                                + (StringUtils.hasLength(sssom.getTargetField())
+                                ? target.getName() + ":" + sssom.getTargetField() : "") + "\t"
+                                + (StringUtils.hasLength(sssom.getSourceField())
+                                ? target.getName() + ":" + sssom.getTargetField() : "") + "\t"
                                 + "semapv:ManualMappingCuration" + "\t"
                                 + "2022-01-01" + "\t"
                                 + "0000-1234-0000-1234" + "\t"
