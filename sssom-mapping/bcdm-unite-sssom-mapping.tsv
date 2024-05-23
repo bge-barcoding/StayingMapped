@@ -21,7 +21,7 @@ bcdm:family	bcdm:family	skos:closeMatch	unite:family	unite:family	semapv:ManualM
 bcdm:subfamily	bcdm:subfamily	skos:closeMatch	unite:subfamily	unite:subfamily	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
 bcdm:tribe	bcdm:tribe	skos:closeMatch	unite:tribe	unite:tribe	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
 bcdm:genus	bcdm:genus	skos:closeMatch	unite:genus	unite:genus	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
-bcdm:species	bcdm:species	skos:closeMatch	unite:specific_epithet	unite:specific_epithet	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Should it be the same as DwC field "specificEpithet"? Otherwise, it's a duplicate of "taxon_name" field	
+bcdm:species	bcdm:species	skos:closeMatch	unite:specific_epithet	unite:specific_epithet	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Should it be the same as DwC field specificEpithet? Otherwise, it's a duplicate of taxon_name field	
 bcdm:subspecies	bcdm:subspecies	skos:broadMatch	unite:intraspecific_epithet	unite:intraspecific_epithet	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
 bcdm:species_reference	bcdm:species_reference	skos:closeMatch	unitetaxon_name_author	unitetaxon_name_author	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
 bcdm:identification	bcdm:identification	skos:closeMatch	unite:taxon_name	unite:taxon_name	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						Same as bcdm:taxon_name.	
@@ -30,7 +30,7 @@ bcdm:identification_rank	bcdm:identification_rank	skos:closeMatch	unite:taxon_ra
 bcdm:identified_by	bcdm:identified_by	skos:closeMatch	unite:sequence_identification_determiners	unite:sequence_identification_determiners	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
 bcdm:identifier_email	bcdm:identifier_email	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
 bcdm:taxonomy_notes	bcdm:taxonomy_notes	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
-bcdm:sex	bcdm:sex	skos:closeMatch	unite:source_sex	unite:source_sex	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						We also have other options such as "worker", "soldier", and "gynandromorph"	
+bcdm:sex	bcdm:sex	skos:closeMatch	unite:source_sex	unite:source_sex	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						We also have other options such as worker, soldier, and gynandromorph	
 bcdm:reproduction	bcdm:reproduction	notApplicable			semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
 bcdm:life_stage	bcdm:life_stage	skos:closeMatch	unite:source_transformation_stage	unite:source_transformation_stage	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845						List of elements: adult, larva/nymph, pupa, egg.	
 bcdm:short_note	bcdm:short_note	skos:closeMatch	unite:source_remarks	unite:source_remarks	semapv:ManualMappingCuration	2024-04-24	0000-0001-5526-4845							
