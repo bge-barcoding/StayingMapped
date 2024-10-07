@@ -50,6 +50,7 @@ public class MainRunner implements ApplicationRunner {
     private boolean validateParameters(ApplicationArguments args) throws Exception {
         boolean skipFieldMapping = false;
         // Validate all parameters
+        System.out.println("Verifying the parameters ...");
         for (String option : args.getOptionNames()) {
             try {
                 Parameter.valueOf(option.replace(".", "_").toUpperCase());
@@ -59,6 +60,7 @@ public class MainRunner implements ApplicationRunner {
         }
 
         // Validate mandatory fields
+        System.out.println("Verifying the mandatory parameters ...");
         for (Parameter mandatoryParam : Parameter.values()) {
             if (mandatoryParam.isMandatory()) {
                 if (!args.getOptionNames().contains(mandatoryParam.getName())) {
@@ -68,10 +70,12 @@ public class MainRunner implements ApplicationRunner {
         }
         if (CollectionUtils.isEmpty(args.getOptionValues("field.mapping.file")) ||
                 !StringUtils.hasLength(args.getOptionValues("field.mapping.file").get(0))) {
+            System.out.println("No field mapping file specified. Hence skipping field mapping.");
             skipFieldMapping = true;
         }
 
         // Validate entity
+        System.out.println("Verifying the entity ...");
         String entityStr = args.getOptionValues("source").get(0).toUpperCase();
         try {
             Entity.valueOf(entityStr);

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'uk.ac.ebi.bge.sssom'
-version = '0.0.1'
+version = '0.0.2'
 
 java {
     sourceCompatibility = '17'
@@ -24,7 +24,7 @@ dependencies {
     implementation('com.fasterxml.jackson.dataformat:jackson-dataformat-csv:2.12.2') {
         exclude group: 'com.fasterxml.jackson.core', module: 'jackson-core'
     }
-    implementation('org.incenp:sssom-cli:0.7.6') {
+    implementation('org.incenp:sssom-cli:0.9.0') {
         exclude group: 'com.fasterxml.jackson.core', module: 'jackson-core'
     }
     implementation 'org.slf4j:slf4j-api:2.0.13'

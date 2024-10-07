@@ -35,7 +35,7 @@ public class SssomClient {
                     + target.toLowerCase()
                     + "-mapping-meta.yml");
             TSVReader tsvReader = new TSVReader(new FileInputStream(file), metaFile);
-            MappingSet mappingSet = tsvReader.read();
+            MappingSet mappingSet = tsvReader.read(true);
             String fileName = outputPath + File.separator + source + "-" + target + "-mapping-output.json";
             try (FileWriter fileWriter = new FileWriter(fileName)) {
                 System.out.println("Output JSON path: " + fileName);

@@ -5,9 +5,9 @@
 
 ### How to run?
 Do you have the SSSOM input tsv already? Please refer SSSOM TSV to JSON
-##### Two column mapping to SSSOM TSV to JSON
+##### Two column mapping of SSSOM TSV to JSON
 ```
-java -jar bge-sssom-mapper-0.0.1.jar \
+java -jar bge-sssom-mapper-0.0.2.jar \
 --source=BCDM \
 --target=DWC \
 --field.mapping.file=<field-mapping-file-path>/<field-mapping-file-name>.tsv \
@@ -21,7 +21,7 @@ E.g
 ##### SSSOM TSV to JSON
 
 ```
-java -jar bge-sssom-mapper-0.0.1.jar \
+java -jar bge-sssom-mapper-0.0.2.jar \
 --source=BCDM \
 --target=UNITE \ 
 --sssom.input.file=<sssom-input-file-path>/<sssom-input-file-name>.tsv \ 
