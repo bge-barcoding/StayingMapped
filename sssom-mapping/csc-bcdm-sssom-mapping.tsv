@@ -1,4 +1,3 @@
-```tsv
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	mapping_date	author_id	source_table	join_path	transformation_expression	confidence	comments	examples
 databricks:material_entity.catalog_number	catalog_number	skos:closeMatch	bcdm:museumid	museumid	semapv:ManualMappingCuration	2024-03-23	system	material_entity	NULL	NULL	1.0	Primary identifier for collection specimens	USNM123456, MCZ12345
 databricks:material_entity.catalog_number	catalog_number	skos:closeMatch	bcdm:sampleid	sampleid	semapv:ManualMappingCuration	2024-03-23	system	material_entity	NULL	NULL	1.0	Sample identifier often matches catalog number	USNM123456, MCZ12345
@@ -53,4 +52,4 @@ databricks:amplicon.marker	marker	skos:closeMatch	bcdm:marker_code	marker_code	s
 databricks:complex_primers	complex_primers	skos:broadMatch	bcdm:primers_forward	primers_forward	semapv:ManualMappingCuration	2024-03-23	system	amplicon	NULL	"CONCAT(prime_name_forward, ':', 'SEQUENCE')"	0.8	Forward primer	"LCO1490:GGTCAACAAATCATAAAGATATTGG"
 databricks:complex_primers	complex_primers	skos:broadMatch	bcdm:primers_reverse	primers_reverse	semapv:ManualMappingCuration	2024-03-23	system	amplicon	NULL	"CONCAT(prime_name_reverse, ':', 'SEQUENCE')"	0.8	Reverse primer	"HCO2198:TAAACTTCAGGGTGACCAAAAAATCA"
 databricks:complex_associated_specimens	complex_associated_specimens	skos:closeMatch	bcdm:associated_specimens	associated_specimens	semapv:ManualMappingCuration	2024-03-23	system	material_entity	"material_entity LEFT JOIN additional_number ON material_entity.material_entity_golden_id = additional_number.material_entity_golden_id"	"CASE WHEN number_type = 'associated_specimen' THEN CONCAT('host: ', number_value) END"	0.8	Associated specimen IDs	"host: USNM123457, prey: USNM123458"
-```
+
